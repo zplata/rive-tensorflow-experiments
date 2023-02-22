@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@mediapipe/hands": "^0.4.1675469240",
+    "@rive-app/canvas": "^1.0.100",
     "@rive-app/canvas-advanced": "latest",
     "@tensorflow-models/hand-pose-detection": "^2.0.0",
     "@tensorflow/tfjs-core": "^4.2.0",
