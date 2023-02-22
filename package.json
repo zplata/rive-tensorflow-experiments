@@ -1,0 +1,29 @@
+{
+  "name": "tensorflow-rive-experiments",
+  "description": "prototype using Rive and tensorflow",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Zach Plata",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.0",
+    "@parcel/optimizer-data-url": "^2.8.0",
+    "@parcel/transformer-inline-string": "^2.8.0",
+    "@parcel/transformer-raw": "^2.8.0",
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.0",
+    "parcel-resolver-typescript-esm": "^1.0.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@rive-app/canvas-advanced": "latest",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow/tfjs-core": "^4.2.0",
+    "gaze-detection": "^2.0.3"
+  }
+}

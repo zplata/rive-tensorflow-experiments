@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Rive TensorFlow Experiments</title>
+    <link href='https://fonts.googleapis.com/css?family=Cherry Bomb' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <video
+      id="video"
+      playsinline
+      style="
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        visibility: hidden;
+        width: auto;
+        height: auto;
+        display: none;
+      "
+    ></video>
+    <canvas id="video-canvas" width="500" height="500"></canvas>
+    <canvas id="rive-canvas" width="500" height="500"></canvas>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
